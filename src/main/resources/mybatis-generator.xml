@@ -4,7 +4,6 @@
         "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
 
 <generatorConfiguration>
-
     <!--
     context:生成一组对象的环境
     id:必选，上下文id，用于在生成错误时提示
