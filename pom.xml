@@ -100,10 +100,6 @@
           <version>3.7.1</version>
         </plugin>
         <plugin>
-          <artifactId>maven-project-info-reports-plugin</artifactId>
-          <version>3.0.0</version>
-        </plugin>
-        <plugin>
           <groupId>org.mybatis.generator</groupId>
           <artifactId>mybatis-generator-maven-plugin</artifactId>
           <version>1.3.7</version>
@@ -132,7 +128,7 @@
             <!--允许移动生成的文件-->
             <verbose>true</verbose>
             <!--允许自动覆盖文件，开发环境不能加，会覆盖别人写的-->
-            <overwrite>true</overwrite>
+           <overwrite>true</overwrite>
             <!--mybatis-generator配置文件路径-->
             <configurationFile>
               src/main/resources/mybatis-generator.xml
